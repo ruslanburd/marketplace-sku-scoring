@@ -46,8 +46,6 @@ Each metric is normalized, adjusted for the reliability of the underlying sample
 
 The score is not intended to replace individual metrics. Instead, it acts as a **prioritization layer**: the score indicates which products deserve attention, while individual metric signals help determine the appropriate action.
 
-![Assortment Management Framework](docs/assortment-management-framework.png)
-
 ---
 
 ## My Role
@@ -88,6 +86,12 @@ Developers implemented the required production data ingestion into the DWH and E
 ---
 
 # Technical & Analytical Deep Dive
+
+## Assortment Management Framework
+
+The scoring model is part of a broader assortment-management framework designed to convert millions of marketplace listings into prioritized, actionable product groups.
+
+![Assortment Management Framework](docs/assortment-management-framework.png)
 
 ## Scoring Methodology
 
